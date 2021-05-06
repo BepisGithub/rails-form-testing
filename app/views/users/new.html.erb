@@ -21,7 +21,7 @@
 
 <%= form_with model: @user do |form|%>
   <%= form.label :username%>
-  <%= form.text_field :username%>
+  <%= form.text_field :username, placeholder: 'PLACEHOLDER TEXT'%>
   <%= form.label :email %>
   <%= form.email_field :email%>
   <%= form.label :password%>
